@@ -53,6 +53,8 @@ interface ApiService {
                     .build()
                     .create(ApiService::class.java)
             }
+
+            return apiService!!
         }
     }
 }
